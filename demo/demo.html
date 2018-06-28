@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard - Laboratoria</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link href="../dist/vertical-responsive-menu.min.css" rel="stylesheet">
+  <link href="demo.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+  <header class="header clearfix">
+    <button type="button" id="toggleMenu" class="toggle_menu">
+      <i class="fa fa-bars"></i>
+    </button>
+    <img src="img/logo-laboratoria.png">
+  </header>
+
+  <nav class="vertical_nav">
+
+    <ul id="js-menu" class="menu">
+
+      <li class="menu--item  menu--item__has_sub_menu">
+
+        <label class="menu--link" title="Item 1">
+          <img src="img/icon-globo.png" class="img-icon">Sede
+        </label>
+
+        <ul class="sub_menu">
+          <li class="sub_menu--item">
+            <a href="http://google.com" target="_blank" class="sub_menu--link sub_menu--link__active">Submenu</a>
+          </li>
+          <li class="sub_menu--item">
+            <a href="#" class="sub_menu--link">Submenu</a>
+          </li>
+          <li class="sub_menu--item">
+            <a href="#" class="sub_menu--link">Submenu</a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="menu--item">
+        <a href="#" class="menu--link" title="Item 2">
+          <i class="menu--icon  fa fa-fw fa-briefcase"></i>
+          <span class="menu--label">Item 2</span>
+        </a>
+      </li>
+
+      <li class="menu--item">
+        <a href="#" class="menu--link" title="Item 3">
+          <i class="menu--icon  fa fa-fw fa-cog"></i>
+          <span class="menu--label">Item 3</span>
+        </a>
+      </li>
+
+      <li class="menu--item  menu--item__has_sub_menu">
+
+        <label class="menu--link" title="Item 4">
+          <i class="menu--icon  fa fa-fw fa-database"></i>
+          <span class="menu--label">Item 4</span>
+        </label>
+
+        <ul class="sub_menu">
+          <li class="sub_menu--item">
+            <a href="#" class="sub_menu--link">Submenu</a>
+          </li>
+          <li class="sub_menu--item">
+            <a href="#" class="sub_menu--link">Submenu</a>
+          </li>
+          <li class="sub_menu--item">
+            <a href="#" class="sub_menu--link">Submenu</a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="menu--item">
+        <a href="#" class="menu--link" title="Item 5">
+          <i class="menu--icon  fa fa-fw fa-globe"></i>
+          <span class="menu--label">Item 5</span>
+        </a>
+      </li>
+
+    </ul>
+
+    <button id="collapse_menu" class="collapse_menu">
+      <img src="img/icon-ocultar.png" class="img-icon">Ocultar menu
+    </button>
+
+  </nav>
+
+
+  <div class="wrapper">
+
+    <section>
+      <div class="container">
+  <h2>Basic Table</h2>
+  <p>The .table class adds basic styling (light padding and only horizontal dividers) to a table:</p>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>%</th>
+        <th>Ex.</th>
+        <th>Quiz.</th>
+        <th>Reads</th>
+        <th>Prom</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Fiorella</td>
+        <td>100</td>
+        <td>50</td>
+        <td>2/3</td>
+        <td>3/5</td>
+        <td>100</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>d</td>
+        <td>2/3</td>
+        <td>3/5</td>
+        <td>100</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>4</td>
+        <td>2/3</td>
+        <td>3/5</td>
+        <td>100</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+    </section>
+
+  </div>
+
+  <script src="../dist/vertical-responsive-menu.min.js"></script>
+
+</body>
+</html>
